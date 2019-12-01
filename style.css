@@ -1,0 +1,298 @@
+body{
+  background: rgb(245,245,245);
+  color: black;
+  /*font-size: 50px;*/
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+h1{
+  font-family: Helvetica;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: Helvetica;
+  color: purple;
+  font-weight: bold;
+  font-size: 20px;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+/*NAVBAR*/
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  /*display: flex;*/
+  /*justify-content: space-evenly;*/
+  width: 50px;
+  height: 50px;
+}
+
+.text-logo {
+  padding-top: 15px;
+  margin-left: 10px;
+}
+
+#esperluette {
+  color: #7F9D47;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu p {
+  margin-left: 20px;
+  padding-top: 15px;
+}
+.menu a {
+  margin-left: 20px;
+}
+
+.fa-facebook {
+  font-size: 30px;
+  color: #ABD35F;
+}
+
+.fa-facebook:hover {
+  color: #7F9D47;
+  transition-duration: 0.3s;
+}
+
+/*BANNER*/
+
+
+#banner{
+  text-align: center;
+  background-image: url("images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+}
+
+.btn-order {
+  border-radius: 50px;
+  font-size: 20px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  background-color: #ABD35F;
+  border-color: #ABD35F;
+}
+.btn-order:hover {
+  background-color: #7F9D47;
+  border-color: #7F9D47;
+}
+#who-are-you:hover {
+  color: #7F9D47;
+}
+
+#banner h1 {
+  font-size: 50px;
+  color: white;
+}
+
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#footer{
+  padding: 30px;
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 32px;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+#footer ul {
+  list-style: none;
+
+}
+
+#footer ul li {
+  display: inline-block;
+  padding: 40px;
+}
+
+.fa-heart {
+  color: #BF0000;
+}
+
+.offer {
+  display: flex;
+  justify-content: center;
+}
+
+.offer-pic {
+  width: 700px;
+  height: 500px;
+}
+
+.cards {
+  margin-top: 30px;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+  height: 300px;
+  border: 0.5px solid #ABD35F;
+}
+
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.card-white h2 {
+  color: #ABD35F;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #6772e5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+.btn-blue:hover {
+  background-color: #7795f8;
+  color: white;
+  height: 200px;
+}
+
+
+.dish-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-trip {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 15px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.card-trip:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.card-trip > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+.logo-footer {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 15px rgb(127, 157, 71)
+}
+
+
+.card-trip .card-trip-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+.who-infos {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border: 0.5px solid #ABD35F;
+  padding:0;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.photo-div {
+  width: 300;
+  height: 300px;
+  border-right: 0.5px solid #ABD35F;
+}
+
+.who-text {
+  display: flex;
+  padding: 30 20;
+  text-orientation: justify-content;
+}
+
+#bold {
+  color: #809E47;
+}
+
+/* ---- reset ---- */
+
+/*body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}*/
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
